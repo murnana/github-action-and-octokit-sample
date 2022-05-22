@@ -1,5 +1,5 @@
 {
-  "name": "typescript-action",
+  "name": "github-action-and-octokit-sample",
   "version": "0.0.0",
   "private": true,
   "description": "TypeScript template action",
@@ -15,14 +15,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/typescript-action.git"
+    "url": "https://github.com/murnana/github-action-and-octokit-sample"
   },
-  "keywords": [
-    "actions",
-    "node",
-    "setup"
-  ],
-  "author": "",
+  "author": "murnana",
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.6.0"
