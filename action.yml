@@ -2,6 +2,16 @@ name: 'GitHub Action with Octokit'
 description: 'Github Action and Octokit sample'
 author: 'murnana'
 
+input:
+  github-token:
+    required: true
+    description: 'GitHub App installation access token'
+    # default: ${{ secrets.GITHUB_TOKEN }}
+
+output:
+  random:
+    description: 'Random number'
+
 runs:
   using: 'node16'
   main: 'dist/index.js'
